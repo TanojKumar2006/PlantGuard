@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment
+.env
+.env.*
+
+# Database
+*.db
+
+# Uploaded images
+backend/uploads/
+
+# Large dataset
+backend/data/PlantVillage/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,29 @@
+# PlantGuard AI – Backend dependencies
+# Core API
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+pydantic>=2.7.1
+pydantic-settings>=2.3.0
+
+# Database
+sqlalchemy>=2.0.30
+aiosqlite>=0.20.0
+greenlet>=3.0.3
+
+# Image processing
+Pillow>=10.3.0
+numpy>=1.26.4
+opencv-python-headless>=4.9.0.80
+
+# AI / Deep Learning (install separately if needed)
+# tensorflow>=2.16.1  -- install with: pip install tensorflow
+# keras>=3.3.3
+
+# Utilities
+python-dotenv>=1.0.1
+httpx>=0.27.0
+
+# Training utilities (only needed for train_model.py)
+# matplotlib>=3.8.0    -- install with: pip install matplotlib
+# scikit-learn>=1.4.0  -- install with: pip install scikit-learn
